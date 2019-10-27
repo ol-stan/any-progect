@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Icomoon';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/icomoon.woff);
+}
+
 body {
     background: #ffffff;
     text-decoration: none;
@@ -252,4 +259,40 @@ h1 strong {
 
 .block-form .textarea-wrapper button:hover {
     background-color: #319e5e;
+}
+
+.icon-facebook {
+    font-family: Icomoon;
+    font-style: normal;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-twitter {
+    font-family: Icomoon;
+    font-style: normal;
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-instagram {
+    font-family: Icomoon;
+    font-style: normal;
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-dribbble {
+    font-family: Icomoon;
+    font-style: normal;
+}
+
+.icon-dribbble:before {
+    content: "\eaa7";
 }
