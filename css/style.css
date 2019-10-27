@@ -1,0 +1,255 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #202020;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    padding: 0;
+    color: #202020;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+h1 strong {
+    color: #2ec06c;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+* {
+    transition-duration: 0.3s;
+}
+
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.row>[class^="col"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mainer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main {
+    padding: 100px 0;
+}
+
+.description {
+    color: #666666;
+    text-align: center;
+    margin: 0 0 60px 0;
+
+}
+
+.block-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 150px;
+    height: 100%;
+}
+
+.block-social li {
+    border: 1px solid;
+    border-radius: 4px;
+    width: calc(50% - 15px);
+    height: calc(50% - 15px);
+    box-sizing: border-box;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+.block-social li.facebook {
+    color: #3b5998;
+}
+
+.block-social li.facebook:hover {
+    background-color: #3b5998;
+}
+
+.block-social li.twitter {
+    color: #03aded;
+}
+
+.block-social li.twitter:hover {
+    background-color: #03aded;
+}
+
+.block-social li.instagram {
+    color: #517fa4;
+}
+
+.block-social li.instagram:hover {
+    background-color: #517fa4;
+}
+
+.block-social li.dribbble {
+    color: #ff0084;
+}
+
+.block-social li.dribbble:hover {
+    background-color: #ff0084;
+}
+
+.block-social li:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.block-form [class^="col"] {
+    margin: 0 0 20px 0;
+
+}
+
+.block-form [class^="col"]:last-child {
+    margin: 0;
+
+}
+
+.block-form [type="text"],
+.block-form [type="email"] {
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bababa;
+    color: #666666;
+}
+
+.block-form textarea {
+    padding: 15px 20px;
+    height: 160px;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bababa;
+    resize: none;
+    color: #666666;
+}
+
+.block-form [type="text"]:focus,
+.block-form [type="email"]:focus,
+.block-form textarea:focus {
+    border-color: #2ec06c;
+}
+
+.block-form [type="text"]::placeholder,
+.block-form [type="email"]::placeholder,
+.block-form textarea::placeholder {
+    font-style: italic;
+    opacity: 1;
+}
+
+
+.block-form .textarea-wrapper {
+    display: flex;
+}
+
+.block-form .textarea-wrapper textarea {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block-form button {
+    border: none;
+    background-color: #2ec06c;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.block-form button:hover {
+    background-color: #bababa;
+
+}
+
+.block-form .textarea-wrapper button {
+    font-size: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0 10px;
+    height: auto;
+}
+
+.block-form .textarea-wrapper button:hover {
+    background-color: #319e5e;
+}
