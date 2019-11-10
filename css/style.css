@@ -91,6 +91,7 @@ h1 strong {
 .row {
     margin-right: -10px;
     margin-left: -10px;
+
 }
 
 .row>[class^="col"] {
@@ -125,6 +126,13 @@ h1 strong {
     align-content: space-between;
     min-height: 150px;
     height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .block-social {
+        margin-bottom: 20px;
+        height: 250px;
+    }
 }
 
 .block-social li {
@@ -295,4 +303,16 @@ h1 strong {
 
 .icon-dribbble:before {
     content: "\eaa7";
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        background-color: rgba(255, 0, 0, 0.2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgba(0, 128, 0, 0.2);
+    }
 }
